@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+margin: 0%;
+
+}
+
+.header{
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #023047;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.container-table {
+  width: 100%;
+  padding: 20px;
+  border-radius: 0 0 5% 5%;
+  color: var(--color-yellow);
+}
+
+.containerTable-lblTitle {
+  width: 30%;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--color-red);
+}
+
+
+
+
+
+
