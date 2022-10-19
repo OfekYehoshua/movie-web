@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import Input from "./components/Input";
-import Table from "./components/Table";
 import Trailer from "./components/Trailer";
+import CustomizedTables from "./components/TableMaterial";
 
 function App() {
   //   // const [movie, setMovie] = useState()
@@ -24,27 +24,21 @@ function App() {
 
       <h1 className="header">My favorite movie</h1>
       <Input save={save} setSave={setSave} fillList={fillList}></Input>
+    <CustomizedTables rows={rows}
+        save={save}
+        setRows={setRows}
+        setTrailerSrc={setTrailerSrc}
+      >
+        {" "}></CustomizedTables>
 
-      {/* /* table start https://react-bootstrap.github.io/components/table/ */}
-      <thead className="container">
-        <tr class="container-table">
-          <th class="containerTable-lblTitle">#</th>
-          <th class="containerTable-lblTitle">Movie Name</th>
-          <th class="containerTable-lblTitle">Image</th>
-          <th class="containerTable-lblTitle">Description</th>
-          <th class="containerTable-lblTitle">Rating</th>
-          <th class="containerTable-lblTitle">Remove</th>
-        </tr>
-      </thead>
-
-      <Table
+      {/* <Table
         rows={rows}
         save={save}
         setRows={setRows}
         setTrailerSrc={setTrailerSrc}
       >
         {" "}
-      </Table>
+      </Table> */}
 
       <Trailer trailerSrc={trailerSrc}></Trailer>
     </div>
