@@ -3,7 +3,7 @@ React js first project, 4th week of programming.
 
 ## Table Of Contents
 * [Moovie web](#Moovie-web)
-  * [Why was movie-web made:](#Why-was-movie-web-made:)
+  * [Why was movie web made:](#Why-was-movie-web-made:)
   * [Running the project](#running-the-project)
   * [Screenshots](#screenshots)
  
@@ -11,7 +11,7 @@ React js first project, 4th week of programming.
     + [Client-Side](#client-side)
 
   
-## Why was movie-web made:
+## Why was movie web made:
 
 Introduction with react js on complete website.
 Using division to components
