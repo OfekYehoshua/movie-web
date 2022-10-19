@@ -2,7 +2,7 @@
 React js first project, 4th week of programming.
 
 ## Table Of Contents
-- [Moovie web](#Moovie web)
+* [Moovie web](#Moovie web)
   * [Why was movie-web made:](#Why was movie-web made:)
   * [Running the project](#running-the-project)
   * [Screenshots](#screenshots)
